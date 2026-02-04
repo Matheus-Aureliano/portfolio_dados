@@ -10,7 +10,7 @@ criados no Looker Studio.
 - Análise da população adulta e idosa no Brasil.
 
 🔗 Link do dashboard:
-https://lookerstudio.google.com/reporting/3e6f786f-8fe9-4825-a27d-0cf143da3b2f
+[Dashboard Population](https://lookerstudio.google.com/reporting/3e6f786f-8fe9-4825-a27d-0cf143da3b2f)
 
 ---
 
@@ -21,7 +21,7 @@ https://lookerstudio.google.com/reporting/3e6f786f-8fe9-4825-a27d-0cf143da3b2f
 - Gráficos de média de casos e mortes confirmadas e mapa geográfico.
 
 🔗 Link do dashboard:
-https://lookerstudio.google.com/reporting/2570c597-7790-41ae-abdf-cc5ffcc17d3f
+[Dashboard Pandemia](https://lookerstudio.google.com/reporting/2570c597-7790-41ae-abdf-cc5ffcc17d3f)
 
 ---
 
@@ -41,5 +41,24 @@ https://lookerstudio.google.com/reporting/2570c597-7790-41ae-abdf-cc5ffcc17d3f
 🎯 Objetivo principal: explorar padrões de comportamento financeiro dos clientes.
 
 🔗 Link do Colab:
-https://colab.research.google.com/drive/1QSjTDSQrsPu8BgJob8K-BiGWDq7IzlQB?usp=sharing
+[Mini projeto](https://colab.research.google.com/drive/1QSjTDSQrsPu8BgJob8K-BiGWDq7IzlQB?usp=sharing)
+
+---
+
+## 🤖 Pipeline de Dados – Chatbot do Telegram
+
+- Construção de um pipeline completo para coletar, transformar e analisar dados gerados por um chatbot no Telegram.
+
+- Integração com a API de Bots do Telegram para capturar mensagens e eventos em tempo quase real.
+
+- Armazenamento de dados brutos em AWS S3 e transformação para dados analíticos em formato Parquet.
+
+- Processos de ETL e data wrangling para padronizar campos, tratar dados opcionais e gerar tabelas consistentes para análise.
+
+- Análises demonstrativas incluem volume de mensagens por dia e participação por usuário, extraídas via SQL e visualizadas com gráficos.
+
+- Arquitetura organizada separando sistema transacional (Telegram) do sistema analítico (pipeline de dados), seguindo boas práticas de engenharia de dados.
+
+🔗 Link do Colab:
+[Pipeline de Dados Telegram](https://colab.research.google.com/drive/1j1g49X6StLVGSPAe-PzxBZkY5MeTNePI?usp=sharing)
 
